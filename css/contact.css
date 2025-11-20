@@ -1,0 +1,101 @@
+/*
+Template Name: Hosting Company
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************contact****************/
+.contact_pg1_left {
+  min-height:230px;
+ }
+.contact_pg1_left:hover {
+  background-color: var(--blue_dark);
+  color: var(--bs-white);
+ }
+.contact_pg1_left:hover a {
+  color: var(--bs-white);
+ }
+ 
+.team_dt3_right .progress-bar {
+    background: var(--bg-light);
+}
+.team_dt3_right .progress {
+    background-color: var(--blue);
+    height: 10px;
+    overflow: hidden;
+    border-radius: 0;
+}
+/*********************contact_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.team_dt1 .ps-0{
+  padding-left:12px!important;
+ }
+.team_dt1_right {
+  padding:0!important;
+  margin-top:20px!important;
+ }
+.team_dt1_right ul .fs-5{
+  font-size:16px!important;
+ }
+.team_dt1_right  ul span{
+  font-size:14px;
+ }
+.team_dt1 {
+  padding-top:30px;
+  padding-bottom:30px;
+ }
+.blog_dt_inner_left{
+    margin-top:10px;
+    margin-bottom:10px;
+ }
+.team_dt3_right{
+   margin-top:15px;
+ }
+.contact_pg1_left {
+    margin-top:10px;
+    margin-bottom:10px;
+ }
+.contact_pg2_right{
+   margin-top:15px;
+ }
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+ 
+@media (min-width:768px) and (max-width:991px) {
+
+.team_dt1_right {
+   padding:0!important;
+   margin:0!important;
+ }
+.team_dt1{
+  padding-top:40px;
+  padding-bottom:40px;
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.team_dt1_right {
+  padding:20px!important;
+  margin-top:10px!important;
+ }
+
+ }
+
+@media (min-width:1201px) and (max-width:1310px) {
+
+ }
+@media screen and (min-width : 1400px){
+
+
+ }
+
+
